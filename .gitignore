@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+
+# Numba JIT cache
+*.nbc
+*.nbi
+
+# Trained model — large binary, distributed separately (see models/README.md)
+models/*.pkl
+
+# Device-specific calibration — generated per screen; commit calib.example.json instead
+calib.json
+
+# Runtime artefacts (logs, and screenshots — which can contain on-screen content)
+*.log
+*.out
+*.png
